@@ -2,7 +2,8 @@
 几行代码实现定位、以及根据经纬度在地图上具体位置。定位采用的是百度定位、地图显示采用的是搜搜地图。为什么这么做，因为结合着两者：定位准确，体积最小。
 
 ## 截图
-
+![执行定位](https://github.com/Pluckypan/MapAndLocate/blob/master/screenshot/1.jpg)
+![在地图显示指定位置](https://github.com/Pluckypan/MapAndLocate/blob/master/screenshot/2.jpg)
 
 ## useage
 ### 第一步：在AndroidManifest.xml文件中分别填写 在 [百度定位开放平台申请的API_KEY](http://lbsyun.baidu.com/apiconsole/key) 以及在[腾讯搜搜地图开放平台](http://lbs.qq.com/mykey.html)申请的KEY
