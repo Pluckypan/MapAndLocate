@@ -1,5 +1,7 @@
 apply plugin: 'com.android.library'
 
+def vername = "1.0.0"
+
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
@@ -8,7 +10,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
-        versionName "1.0"
+        versionName vername
     }
     buildTypes {
         release {
@@ -27,7 +29,9 @@ dependencies {
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-version = "1.0.0"       //这个是版本号，必须填写
+version = vername      //这个是版本号，必须填写
+
+
 
 def siteUrl = 'https://github.com/Pluckypan/'      // 项目的主页   这个是说明，可随便填
 def gitUrl = 'https://github.com/Pluckypan/MapAndLocate.git'      // Git仓库的url  这个是说明，可随便填
@@ -90,7 +94,7 @@ bintray {
     key = properties.getProperty("bintray.apikey")   //读取 local.properties 文件里面的 bintray.apikey
     configurations = ['archives']
     pkg {
-        repo = "maven"
+        repo = "maven"//maven
         name = "MapAndLocate"    //发布到JCenter上的项目名字，必须填写
         websiteUrl = siteUrl
         vcsUrl = gitUrl

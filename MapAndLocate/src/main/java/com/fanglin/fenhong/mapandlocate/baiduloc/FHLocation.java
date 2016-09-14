@@ -69,7 +69,7 @@ public class FHLocation {
         sb.append("'Radius':" + Radius + ",");
 
         sb.append("'pos_time':" + pos_time + ",");
-        sb.append("'district':" + "'" + district + "");
+        sb.append("'district':" + "'" + district + "' ");
 
         sb.append("}");
         return sb.toString();
