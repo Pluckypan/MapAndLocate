@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import com.fanglin.fenhong.mapandlocate.baiduloc.BaiduLocateUtil;
 import com.fanglin.fenhong.mapandlocate.baiduloc.FHLocation;
 import com.fanglin.fenhong.mapandlocate.baiduloc.LocMsg;

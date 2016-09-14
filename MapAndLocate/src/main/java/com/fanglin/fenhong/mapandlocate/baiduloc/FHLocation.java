@@ -2,8 +2,6 @@ package com.fanglin.fenhong.mapandlocate.baiduloc;
 
 import android.location.Location;
 
-import com.google.gson.Gson;
-
 /**
  * Created by Plucky on 2015/8/14.
  * Desc:
@@ -56,6 +54,24 @@ public class FHLocation {
 
     @Override
     public String toString() {
-        return new Gson().toJson(this);
+        StringBuilder sb = new StringBuilder();
+        sb.append("{");
+        sb.append("'id':" + "'" + id + "',");
+        sb.append("'country':" + "'" + country + "',");
+        sb.append("'province':" + "'" + province + "',");
+        sb.append("'city':" + "'" + city + "',");
+        sb.append("'street':" + "'" + street + "',");
+        sb.append("'latitude':" + latitude + ",");
+        sb.append("'longitude':" + longitude + ",");
+        sb.append("'address':" + "'" + address + "',");
+        sb.append("'isSuccess':" + isSuccess + ",");
+        sb.append("'LocType':" + LocType + ",");
+        sb.append("'Radius':" + Radius + ",");
+
+        sb.append("'pos_time':" + pos_time + ",");
+        sb.append("'district':" + "'" + district + "");
+
+        sb.append("}");
+        return sb.toString();
     }
 }
