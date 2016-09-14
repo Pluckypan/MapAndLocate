@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="engineer.echo.maplocdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 百度定位 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="5n57o4BRzjq1FZGK0PbIvk4HD3iIGy8Q" />
+
+        <!-- 腾讯地图 -->
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="FQYBZ-CKSRF-G2LJD-JW6HF-DPQKK-RSFCF" />
+    </application>
+
+</manifest>

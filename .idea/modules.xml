@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MapAndLocate.iml" filepath="$PROJECT_DIR$/MapAndLocate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapAndLocate/MapAndLocate-MapAndLocate.iml" filepath="$PROJECT_DIR$/MapAndLocate/MapAndLocate-MapAndLocate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maplocdemo/maplocdemo.iml" filepath="$PROJECT_DIR$/maplocdemo/maplocdemo.iml" />
+    </modules>
+  </component>
+</project>

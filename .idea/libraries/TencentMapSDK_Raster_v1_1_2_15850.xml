@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TencentMapSDK_Raster_v1.1.2.15850">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MapAndLocate/libs/TencentMapSDK_Raster_v1.1.2.15850.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
