@@ -34,6 +34,13 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:22.+'
-    compile project(':MapAndLocate')
     compile 'com.google.code.gson:gson:2.6.2'
+
+    compile 'com.fanglin.fenhong.mapandlocate:MapAndLocate:1.0.0'
+}
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/pluckypan/maven/'
+    }
 }

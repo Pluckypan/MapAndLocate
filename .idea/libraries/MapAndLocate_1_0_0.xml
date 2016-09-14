@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="MapAndLocate-1.0.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/maplocdemo/build/intermediates/exploded-aar/com.fanglin.fenhong.mapandlocate/MapAndLocate/1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/maplocdemo/build/intermediates/exploded-aar/com.fanglin.fenhong.mapandlocate/MapAndLocate/1.0.0/jars/libs/BaiduLBS_Android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/maplocdemo/build/intermediates/exploded-aar/com.fanglin.fenhong.mapandlocate/MapAndLocate/1.0.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/maplocdemo/build/intermediates/exploded-aar/com.fanglin.fenhong.mapandlocate/MapAndLocate/1.0.0/jars/libs/TencentMapSDK_Raster_v1.1.2.15850.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fanglin.fenhong.mapandlocate/MapAndLocate/1.0.0/d1353ed8d8c86590d13f0902ad6dc2993bdc1733/MapAndLocate-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
