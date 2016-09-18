@@ -39,8 +39,8 @@ dependencies {
     compile 'com.fanglin.fenhong.mapandlocate:MapAndLocate:1.0.0'
 }
 
-repositories {
-    maven {
-        url 'https://dl.bintray.com/pluckypan/maven/'
-    }
-}
+//repositories {
+//    maven {
+//        url 'https://dl.bintray.com/pluckypan/maven/'
+//    }
+//}
